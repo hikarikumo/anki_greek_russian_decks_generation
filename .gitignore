@@ -1,3 +1,16 @@
+# anki decks
+*.apkg
+
+#audo files
+*.mp3
+*.ogg
+
+# hanzi list
+*.txt
+
+story_images/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -54,6 +67,10 @@ cover/
 # Translations
 *.mo
 *.pot
+input_words_archive_*/
+
+# Media
+media_files/
 
 # Django stuff:
 *.log
