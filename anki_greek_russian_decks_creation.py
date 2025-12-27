@@ -49,7 +49,6 @@ class GreekAnkiGenerator:
                     """,
                     "afmt": """
                         <div class="greek-word">{{GreekWord}}</div>
-                        <div class="audio-btn">{{WordAudio}}</div>
                         <hr>
                         <div class="meaning">{{Translation}}</div>
                         <div class="example-box">
