@@ -12,12 +12,12 @@ load_dotenv()
 
 # === НАСТРОЙКИ ===
 input_file = "greek_words.txt"
-# anki_deck_name = "Greek Recall (Russian -> Greek) Greekpod101 simple dialogues"
-# output_deck = "greekpod101_simple_dialogues_recall.apkg"
-# input_words_archive = "input_words_archive_greekpod101_simple_dialogues_recall"
-anki_deck_name = "Greek Recall (Russian -> Greek) Zero Matrix"
-output_deck = "recall_zero_matrix.apkg"
-input_words_archive = "input_words_archive_recall_zero_matrix"
+anki_deck_name = "Greek decks::GreekPod101::Greek Recall (Russian -> Greek) Greekpod101 simple dialogues"
+output_deck = "greekpod101_simple_dialogues_recall.apkg"
+input_words_archive = "input_words_archive_greekpod101_simple_dialogues_recall"
+# anki_deck_name = "Greek Recall (Russian -> Greek) Zero Matrix"
+# output_deck = "recall_zero_matrix.apkg"
+# input_words_archive = "input_words_archive_recall_zero_matrix"
 
 
 GREEK_MODEL_ID = 1847592033
