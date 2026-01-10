@@ -130,9 +130,14 @@ class GreekAnkiGenerator:
         example_ru = ""
         
         if ai_data:
-            translation = ai_data.get("translation", "???")
-            example_el = ai_data.get("example_greek", "")
-            example_ru = ai_data.get("example_russian", "")
+            if isinstance(ai_data, list) and ai_data:
+                data = ai_data[0]
+            else:
+                data = ai_data
+
+            translation = data.get("translation", "???")
+            example_el = data.get("example_greek", "")
+            example_ru = data.get("example_russian", "")
             print(f"   📖 Перевод: {translation}")
 
         # 1. Аудио СЛОВА (теперь TTS)
