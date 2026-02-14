@@ -12,13 +12,50 @@ load_dotenv()
 
 # === НАСТРОЙКИ ===
 input_file = "greek_words.txt"
-anki_deck_name = "Greek decks::GreekPod101::Greek Recall (Russian -> Greek) Greekpod101 simple dialogues"
-output_deck = "greekpod101_simple_dialogues_recall.apkg"
-input_words_archive = "input_words_archive_greekpod101_simple_dialogues_recall"
+
+# anki_deck_name = "Greek decks::GreekPod101::Greek Recall (Russian -> Greek) Greekpod101 simple dialogues"
+# output_deck = "greekpod101_simple_dialogues_recall.apkg"
+# input_words_archive = "input_words_archive_greekpod101_simple_dialogues_recall"
+
 # anki_deck_name = "Greek Recall (Russian -> Greek) Zero Matrix"
 # output_deck = "recall_zero_matrix.apkg"
 # input_words_archive = "input_words_archive_recall_zero_matrix"
 
+# anki_deck_name = "Greek decks::Ελληνικά::recall 100 самых частотных глаголов (Русский -> Ελληνηκα)"
+# output_deck = "recall_100_most_frequent_greek_verbs.apkg"
+# input_words_archive = "input_words_archive_recall_100_most_frequent_greek_verbs"
+
+# anki_deck_name = "Greek decks::Ελληνικά::recall цифры (Русский -> Ελληνηκα)"
+# output_deck = "recall_numbers.apkg"
+# input_words_archive = "input_words_archive_recall_numbers"
+
+# anki_deck_name = "Greek decks::Ελληνικά::recall глаголы этап 1 (Русский -> Ελληνηκα)"
+# output_deck = "recall_verbs1.apkg"
+# input_words_archive = "input_words_archive_recall_verbs1"
+
+# anki_deck_name = "Greek decks::Ελληνικά::recall грамматика 1 (Русский -> Ελληνηκα)"
+# output_deck = "recall_grammar1.apkg"
+# input_words_archive = "input_words_archive_recall_grammar1"
+
+# anki_deck_name = "Greek decks::Ελληνικά::recall грамматика 2 это (Русский -> Ελληνηκα)"
+# output_deck = "recall_grammar2_this.apkg"
+# input_words_archive = "input_words_archive_recall_grammar2_this"
+
+# anki_deck_name = "Greek decks::Ελληνικά::recall грамматика 3 это (Русский -> Ελληνηκα)"
+# output_deck = "recall_grammar3_this.apkg"
+# input_words_archive = "input_words_archive_recall_grammar3_this"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Судан лексика 01 (Русский -> Ελληνηκα)"
+# output_deck = "recall_sudan_vocabulary_01.apkg"
+# input_words_archive = "input_words_archive/recall_sudan_vocabulary_01"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Судан лексика 02 (Русский -> Ελληνηκα)"
+# output_deck = "recall_sudan_vocabulary_02.apkg"
+# input_words_archive = "input_words_archive/recall_sudan_vocabulary_02"
+
+anki_deck_name = "Greek decks::Ελληνικά::recall быть (Русский -> Ελληνηκα)"
+output_deck = "recall_to_be.apkg"
+input_words_archive = "input_words_archive/recall_to_be_ειμαι"
 
 GREEK_MODEL_ID = 1847592033
 DECK_ID = 2159400555

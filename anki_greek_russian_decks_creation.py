@@ -6,20 +6,57 @@ from google import genai
 from google.genai import types
 from datetime import datetime
 from gtts import gTTS
-from dotenv import load_dotenv
+from dotenv import load_dotenv  
 
 # === ЗАГРУЗКА .ENV ===
 load_dotenv()
 
 # === НАСТРОЙКИ ===
 input_file = "greek_words.txt"
-anki_deck_name = "Greek decks::GreekPod101::GreekPod 101 simple dialogues (Greek -> Russian)"
-output_deck = "greekpod101_simple_dialogues.apkg"
-input_words_archive = "input_words_archive_greekpod101_simple_dialogues"
+
+# anki_deck_name = "Greek decks::GreekPod101::GreekPod 101 simple dialogues (Greek -> Russian)"
+# output_deck = "greekpod101_simple_dialogues.apkg"
+# input_words_archive = "input_words_archive_greekpod101_simple_dialogues"
+
 # anki_deck_name = "Greek Zero Matrix (Greek -> Russian)"
 # output_deck = "zero_matrix.apkg"
 # input_words_archive = "input_words_archive_zero_matrix"
 
+# anki_deck_name = "Greek decks::Ελληνικά::100 самых частотных глаголов (Ελληνηκα -> Русский)"
+# output_deck = "100_most_frequent_greek_verbs.apkg"
+# input_words_archive = "input_words_archive_100_most_frequent_greek_verbs"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Цифры (Ελληνηκα -> Русский)"
+# output_deck = "numbers.apkg"
+# input_words_archive = "input_words_archive_numbers"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Глаголы Этап 1 (Ελληνηκα -> Русский)"
+# output_deck = "verbs1.apkg"
+# input_words_archive = "input_words_archive_verbs1"
+
+# anki_deck_name = "Greek decks::Ελληνικά::грамматика 1 (Ελληνηκα -> Русский)"
+# output_deck = "grammar1.apkg"
+# input_words_archive = "input_words_archive_grammar1"
+
+# anki_deck_name = "Greek decks::Ελληνικά::грамматика 2 это (Ελληνηκα -> Русский)"
+# output_deck = "grammar2.apkg"
+# input_words_archive = "input_words_archive_grammar2-this"
+
+# anki_deck_name = "Greek decks::Ελληνικά::грамматика 3 это (Ελληνηκα -> Русский)"
+# output_deck = "grammar3.apkg"
+# input_words_archive = "input_words_archive_grammar3-this"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Судан лексика 01 (Русский -> Ελληνηκα)"
+# output_deck = "sudan_vocabulary_01.apkg"
+# input_words_archive = "input_words_archive/sudan_vocabulary_01"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Судан лексика 02 (Русский -> Ελληνηκα)"
+# output_deck = "sudan_vocabulary_02.apkg"
+# input_words_archive = "input_words_archive/sudan_vocabulary_02"
+
+anki_deck_name = "Greek decks::Ελληνικά::быть ειμαι (Ελληνηκα -> Русский)"
+output_deck = "to_be.apkg"
+input_words_archive = "input_words_archive/to_be_ειμαι"
 
 GREEK_MODEL_ID = 1607392320
 DECK_ID = 2059400120
@@ -53,6 +90,7 @@ class GreekAnkiGenerator:
                     """,
                     "afmt": """
                         <div class="greek-word">{{GreekWord}}</div>
+                        <div class="audio-btn">{{WordAudio}}</div>
                         <hr>
                         <div class="meaning">{{Translation}}</div>
                         <div class="example-box">
