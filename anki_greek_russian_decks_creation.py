@@ -54,9 +54,13 @@ input_file = "greek_words.txt"
 # output_deck = "sudan_vocabulary_02.apkg"
 # input_words_archive = "input_words_archive/sudan_vocabulary_02"
 
-anki_deck_name = "Greek decks::Ελληνικά::быть ειμαι (Ελληνηκα -> Русский)"
-output_deck = "to_be.apkg"
-input_words_archive = "input_words_archive/to_be_ειμαι"
+# anki_deck_name = "Greek decks::Ελληνικά::быть ειμαι (Ελληνηκα -> Русский)"
+# output_deck = "to_be.apkg"
+# input_words_archive = "input_words_archive/to_be_ειμαι"
+
+anki_deck_name = "Greek decks::Ελληνικά::Эри аэропорт 01 (Ελληνηκα -> Русский)"
+output_deck = "eri_01.apkg"
+input_words_archive = "input_words_archive/eri_01"
 
 GREEK_MODEL_ID = 1607392320
 DECK_ID = 2059400120

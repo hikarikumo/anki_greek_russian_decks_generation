@@ -53,9 +53,17 @@ input_file = "greek_words.txt"
 # output_deck = "recall_sudan_vocabulary_02.apkg"
 # input_words_archive = "input_words_archive/recall_sudan_vocabulary_02"
 
-anki_deck_name = "Greek decks::Ελληνικά::recall быть (Русский -> Ελληνηκα)"
-output_deck = "recall_to_be.apkg"
-input_words_archive = "input_words_archive/recall_to_be_ειμαι"
+# anki_deck_name = "Greek decks::Ελληνικά::recall быть (Русский -> Ελληνηκα)"
+# output_deck = "recall_to_be.apkg"
+# input_words_archive = "input_words_archive/recall_to_be_ειμαι"
+
+# anki_deck_name = "Greek decks::Ελληνικά::recall soudan 02(Русский -> Ελληνηκα)"
+# output_deck = "recall_soudan_03.apkg"
+# input_words_archive = "input_words_archive/recall_soudan_03"
+
+anki_deck_name = "Greek decks::Ελληνικά::recall эри 01 (Русский -> Ελληνηκα)"
+output_deck = "recall_eri_01.apkg"
+input_words_archive = "input_words_archive/recall_eri_01"
 
 GREEK_MODEL_ID = 1847592033
 DECK_ID = 2159400555
