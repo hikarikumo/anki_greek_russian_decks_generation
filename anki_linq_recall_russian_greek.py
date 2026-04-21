@@ -83,7 +83,7 @@ class GreekRecallGenerator:
                 "Respond ONLY with JSON: {\"translation\": \"...\"}"
             )
             response = self.client.models.generate_content(
-                model='gemini-2.0-flash',
+                model='gemini-flash-latest',
                 contents=prompt,
                 config=types.GenerateContentConfig(response_mime_type='application/json')
             )

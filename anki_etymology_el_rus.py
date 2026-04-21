@@ -19,6 +19,20 @@ anki_deck_name = "Greek decks::Этимология::Linq (Ελληνηκα - Р
 input_words_archive = "input_archive_sentences"
 output_deck = "linq_etymology_el_rus.apkg"
 
+# anki_deck_name = "Greek decks::Ελληνικά::Судан глаголы (Русский -> Ελληνηκα)"
+# output_deck = "sudan_Ρήματα.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Судан местоимения (Русский -> Ελληνηκα)"
+# output_deck = "sudan_prepositions.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: thoughts (Русский -> Ελληνηκα)"
+# output_deck = "thoughts.apkg"
+# input_words_archive = "input_words_archive/"
+
+
+
 MODEL_ID = 1607392321
 DECK_ID = 2059400121
 
@@ -138,7 +152,7 @@ class GreekSentenceGenerator:
                 }}
                 """
                 response = self.client.models.generate_content(
-                    model='gemini-2.0-flash',
+                    model='gemini-flash-latest',
                     contents=prompt,
                     config=types.GenerateContentConfig(response_mime_type='application/json')
                 )

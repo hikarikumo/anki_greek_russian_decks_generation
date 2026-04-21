@@ -71,7 +71,7 @@ class GreekReadingGenerator:
         try:
             prompt = f"Translate the Greek word or phrase '{word}' into Russian. Respond ONLY with the Russian translation, no extra text."
             response = self.client.models.generate_content(
-                model='gemini-2.0-flash',
+                model='gemini-flash-latest',
                 contents=prompt
             )
             return response.text.strip() if response.text else "???"

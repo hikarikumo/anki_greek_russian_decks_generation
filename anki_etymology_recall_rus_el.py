@@ -19,6 +19,18 @@ anki_deck_name = "Greek decks::Этимология::Linq recall (Ελληνηκ
 input_words_archive = "input_archive_sentences"
 output_deck = "linq_etymology_recall_rus_el.apkg"
 
+# anki_deck_name = "Greek decks::Ελληνικά::Судан recall глаголы (Ελληνηκα -> Русский)"
+# output_deck = "sudan_recall_Ρήματα.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά::Судан recall местоимения (Русский -> Ελληνηκα)"
+# output_deck = "sudan_recall_prepositions.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall thoughts (Ελληνηκα -> Русский)"
+# output_deck = "recall_thoughts.apkg"
+# input_words_archive = "input_words_archive/"
+
 # Уникальные ID для модели и колоды
 GREEK_MODEL_ID = 1847592034
 DECK_ID = 2159400556
@@ -156,7 +168,7 @@ class GreekRecallGenerator:
             }}
             """
             response = self.client.models.generate_content(
-                model='gemini-2.0-flash',
+                model='gemini-flash-latest',
                 contents=prompt,
                 config=types.GenerateContentConfig(response_mime_type='application/json')
             )
