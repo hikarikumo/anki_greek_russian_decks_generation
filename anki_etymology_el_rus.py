@@ -15,9 +15,9 @@ load_dotenv()
 # === НАСТРОЙКИ ===
 input_file = "greek_text.txt"  
 
-anki_deck_name = "Greek decks::Этимология::Linq (Ελληνηκα - Русский)"
-input_words_archive = "input_archive_sentences"
-output_deck = "linq_etymology_el_rus.apkg"
+# anki_deck_name = "Greek decks::Этимология::Linq (Ελληνηκα - Русский)"
+# input_words_archive = "input_archive_sentences"
+# output_deck = "linq_etymology_el_rus.apkg"
 
 # anki_deck_name = "Greek decks::Ελληνικά::Судан глаголы (Русский -> Ελληνηκα)"
 # output_deck = "sudan_Ρήματα.apkg"
@@ -31,6 +31,21 @@ output_deck = "linq_etymology_el_rus.apkg"
 # output_deck = "thoughts.apkg"
 # input_words_archive = "input_words_archive/"
 
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνηκα - Русский)"
+# output_deck = "T2_my_day.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: describe picture (Ελληνηκα - Русский)"
+# output_deck = "describe_picture.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Этимология::Linq 15.. (Ελληνηκα - Русский)"
+# input_words_archive = "input_archive_sentences"
+# output_deck = "linq_etymology_el_rus.apkg"
+
+anki_deck_name = "Greek decks::Ελληνικά έξεταση:: союзы (Ελληνηκα - Русский)"
+output_deck = "unions.apkg"
+input_words_archive = "input_words_archive/"
 
 
 MODEL_ID = 1607392321
@@ -141,11 +156,11 @@ class GreekSentenceGenerator:
                     "emotional_phrase": "Очень краткая, хлесткая и эмоциональная ассоциация для запоминания сути этимологии. СТРОГО 2-3 СЛОВА на русском (например: 'Вместе лицом к лицу!', 'Совместное столкновение!')",
                     "examples": [
                         {{
-                            "greek": "Пример предложения 1 на греческом (с использованием этого слова)",
+                            "greek": "Пример предложения 1 на греческом (с использованием этого слова) для использования в реальной жизни",
                             "russian": "Перевод примера 1 на русский"
                         }},
                         {{
-                            "greek": "Пример предложения 2 на греческом (с использованием этого слова)",
+                            "greek": "Пример предложения 2 на греческом (с использованием этого слова) для использования в реальной жизни",
                             "russian": "Перевод примера 2 на русский"
                         }}
                     ]
