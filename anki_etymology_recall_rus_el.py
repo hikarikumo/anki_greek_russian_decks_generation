@@ -15,11 +15,11 @@ load_dotenv()
 # === НАСТРОЙКИ ===
 input_file = "greek_text.txt"  # Файл, куда вставляем греческие предложения
 
-# anki_deck_name = "Greek decks::Этимология::Linq recall (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Этимология::Linq recall (Русский -> Ελληνηκα)"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_recall_rus_el.apkg"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан recall глаголы (Ελληνηκα -> Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан recall глаголы (Русский -> Ελληνηκα)"
 # output_deck = "sudan_recall_Ρήματα.apkg"
 # input_words_archive = "input_words_archive/"
 
@@ -27,9 +27,9 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "sudan_recall_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall thoughts (Ελληνηκα -> Русский)"
-# output_deck = "recall_thoughts.apkg"
-# input_words_archive = "input_words_archive/"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall actions & change (Русский -> Ελληνηκα)"
+output_deck = "recall_actions_change.apkg"
+input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνηκα)"
 # output_deck = "recall_T2_my_day.apkg"
@@ -39,13 +39,13 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_describe_picture.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Этимология::Linq recall 15.. (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Этимология::Linq recall 15.. (Русский -> Ελληνηκα)"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_recall_rus_el.apkg"
 
-anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall союзы (Русский -> Ελληνηκα)"
-output_deck = "recall_unions.apkg"
-input_words_archive = "input_words_archive/"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall союзы (Русский -> Ελληνηκα)"
+# output_deck = "recall_unions.apkg"
+# input_words_archive = "input_words_archive/"
 
 # Уникальные ID для модели и колоды
 GREEK_MODEL_ID = 1847592034

@@ -19,17 +19,17 @@ input_file = "greek_text.txt"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_el_rus.apkg"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан глаголы (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан глаголы (Ελληνηκα - Русский)"
 # output_deck = "sudan_Ρήματα.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан местоимения (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан местоимения (Ελληνηκα - Русский)"
 # output_deck = "sudan_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: thoughts (Русский -> Ελληνηκα)"
-# output_deck = "thoughts.apkg"
-# input_words_archive = "input_words_archive/"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: Actions & Change (Ελληνηκα - Русский)"
+output_deck = "actions_change.apkg"
+input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνηκα - Русский)"
 # output_deck = "T2_my_day.apkg"
@@ -43,9 +43,9 @@ input_file = "greek_text.txt"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_el_rus.apkg"
 
-anki_deck_name = "Greek decks::Ελληνικά έξεταση:: союзы (Ελληνηκα - Русский)"
-output_deck = "unions.apkg"
-input_words_archive = "input_words_archive/"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: союзы (Ελληνηκα - Русский)"
+# output_deck = "unions.apkg"
+# input_words_archive = "input_words_archive/"
 
 
 MODEL_ID = 1607392321
