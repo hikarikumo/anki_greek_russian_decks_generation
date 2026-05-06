@@ -27,8 +27,8 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "sudan_recall_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall actions & change (Русский -> Ελληνηκα)"
-output_deck = "recall_actions_change.apkg"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall Золотые идиомы (Русский -> Ελληνηκα)"
+output_deck = "recall_golden_idioms.apkg"
 input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνηκα)"
@@ -235,7 +235,7 @@ class GreekRecallGenerator:
         
         data = self.get_card_data(greek_sentence)
         if not data:
-            print("❌ Пропуск из-за ошибки генерации.")
+            print(f"❌ Пропуск {greek_sentence[:50]}... из-за ошибки генерации.")
             return
             
         transcription = data.get("transcription", "")

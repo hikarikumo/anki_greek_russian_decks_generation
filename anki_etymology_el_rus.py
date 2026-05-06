@@ -27,8 +27,8 @@ input_file = "greek_text.txt"
 # output_deck = "sudan_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: Actions & Change (Ελληνηκα - Русский)"
-output_deck = "actions_change.apkg"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: Золотые идиомы (Ελληνηκα - Русский)"
+output_deck = "golden_idioms.apkg"
 input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνηκα - Русский)"
@@ -220,7 +220,7 @@ class GreekSentenceGenerator:
         
         data = self.get_card_data(sentence)
         if not data:
-            print("❌ Пропуск из-за ошибки генерации.")
+            print(f"❌ Пропуск {sentence[:50]}... из-за ошибки генерации.")
             return
             
         transcription = data.get("transcription", "")
