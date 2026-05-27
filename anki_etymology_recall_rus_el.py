@@ -8,6 +8,8 @@ from google.genai import types
 from datetime import datetime
 from gtts import gTTS
 from dotenv import load_dotenv
+from pydantic import BaseModel, Field
+from typing import List
 
 # === ЗАГРУЗКА .ENV ===
 load_dotenv()
@@ -27,13 +29,17 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "sudan_recall_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall причины и следствия (Русский -> Ελληνηκα)"
-output_deck = "recall_reasons_consequences.apkg"
-input_words_archive = "input_words_archive/"
-
-# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - φράσεων (Русский -> Ελληνηκα)"
-# output_deck = "recall_phrazes.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall επαγγέλματα (Русский -> Ελληνηκα)"
+# output_deck = "recall_professions.apkg"
 # input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall ρήμ β2 (Русский -> Ελληνηκα)"
+# output_deck = "recall_verbs_b2.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - σκοποβολή (Русский -> Ελληνηκα)"
+output_deck = "recall_εξεταση_λεξιλόγιο_σκοποβολή.apkg"
+input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνηκα)"
 # output_deck = "recall_T2_my_day.apkg"
@@ -54,6 +60,24 @@ input_words_archive = "input_words_archive/"
 # Уникальные ID для модели и колоды
 GREEK_MODEL_ID = 1847592034
 DECK_ID = 2159400556
+
+
+# === PYDANTIC СХЕМЫ ДЛЯ STRUCTURED OUTPUTS ===
+class ExampleItem(BaseModel):
+    greek: str
+    russian: str
+
+class GreekCardSchema(BaseModel):
+    transcription: str
+    translation: str
+    main_word_with_article: str
+    meanings_official: List[str]
+    meanings_colloquial: List[str]
+    etymology_breakdown: str
+    origin: str
+    emotional_phrase: str
+    examples: List[ExampleItem]
+
 
 class GreekRecallGenerator:
     def __init__(self):
@@ -159,7 +183,7 @@ class GreekRecallGenerator:
         if not os.path.exists("media_files"): os.makedirs("media_files")
 
     def get_card_data(self, text):
-        """Получаем полный разбор предложения через Gemini"""
+        """Получаем полный разбор предложения через Gemini со строгой валидацией Pydantic"""
         if not self.client: return None
         try:
             prompt = f"""
@@ -190,26 +214,19 @@ class GreekRecallGenerator:
             response = self.client.models.generate_content(
                 model='gemini-flash-latest',
                 contents=prompt,
-                config=types.GenerateContentConfig(response_mime_type='application/json')
+                config=types.GenerateContentConfig(
+                    response_mime_type='application/json',
+                    response_schema=GreekCardSchema  # Принудительно заставляем API следовать Pydantic схеме
+                )
             )
             
-            parsed_data = json.loads(response.text)
+            # Валидируем через Pydantic и возвращаем как классический dict, 
+            # чтобы не менять логику обработки полей ниже
+            validated_data = GreekCardSchema.model_validate_json(response.text)
+            return validated_data.model_dump()
             
-            # 🛡 ПРЕДОХРАНИТЕЛЬ: извлекаем словарь, если пришел список
-            if isinstance(parsed_data, list):
-                if len(parsed_data) > 0:
-                    parsed_data = parsed_data[0]
-                else:
-                    print("⚠️ Gemini вернул пустой список.")
-                    return None
-            
-            if not isinstance(parsed_data, dict):
-                print(f"⚠️ Неожиданный формат данных от API: {type(parsed_data)}")
-                return None
-                
-            return parsed_data
         except Exception as e:
-            print(f"⚠️ Ошибка API или JSON: {e}")
+            print(f"⚠️ Ошибка API или JSON валидации: {e}")
             return None
 
     def get_tts(self, text):

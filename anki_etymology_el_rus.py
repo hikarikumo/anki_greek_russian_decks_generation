@@ -8,6 +8,8 @@ from google.genai import types
 from datetime import datetime
 from gtts import gTTS
 from dotenv import load_dotenv  
+from pydantic import BaseModel
+from typing import List
 
 # === ЗАГРУЗКА .ENV ===
 load_dotenv()
@@ -27,13 +29,17 @@ input_file = "greek_text.txt"
 # output_deck = "sudan_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: причины и следствия (Ελληνηκα - Русский)"
-output_deck = "reasons_consequences.apkg"
-input_words_archive = "input_words_archive/"
-
-# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - φράσεων (Ελληνηκα - Русский)"
-# output_deck = "phrazes.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: επαγγέλματα (Ελληνηκα - Русский)"
+# output_deck = "professions.apkg"
 # input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: ρήμ β2 (Ελληνηκα - Русский)"
+# output_deck = "verbs_b2.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - σκοποβολή (Ελληνηκα - Русский)"
+output_deck = "εξεταση_λεξιλόγιο_σκοποβολή.apkg"
+input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνηκα - Русский)"
 # output_deck = "T2_my_day.apkg"
@@ -54,6 +60,24 @@ input_words_archive = "input_words_archive/"
 
 MODEL_ID = 1607392321
 DECK_ID = 2059400121
+
+
+# === PYDANTIC СХЕМЫ ДЛЯ STRUCTURED OUTPUTS ===
+class ExampleItem(BaseModel):
+    greek: str
+    russian: str
+
+class GreekCardSchema(BaseModel):
+    transcription: str
+    translation: str
+    main_word_with_article: str
+    meanings_official: List[str]
+    meanings_colloquial: List[str]
+    etymology_breakdown: str
+    origin: str
+    emotional_phrase: str
+    examples: List[ExampleItem]
+
 
 class GreekSentenceGenerator:
     def __init__(self):
@@ -173,31 +197,19 @@ class GreekSentenceGenerator:
                 response = self.client.models.generate_content(
                     model='gemini-flash-latest',
                     contents=prompt,
-                    config=types.GenerateContentConfig(response_mime_type='application/json')
+                    config=types.GenerateContentConfig(
+                        response_mime_type='application/json',
+                        response_schema=GreekCardSchema  # Привязываем Pydantic схему к запросу
+                    )
                 )
                 
-                # Парсим JSON
-                parsed_data = json.loads(response.text)
-                
-                # 🛡 ПРЕДОХРАНИТЕЛЬ: Если Gemini вернул список, берем первый элемент
-                if isinstance(parsed_data, list):
-                    if len(parsed_data) > 0:
-                        parsed_data = parsed_data[0]
-                    else:
-                        print("⚠️ Gemini вернул пустой список.")
-                        return None
-                
-                # Если после всех проверок это все еще не словарь, отбраковываем
-                if not isinstance(parsed_data, dict):
-                    print(f"⚠️ Неожиданный формат данных от API: {type(parsed_data)}")
-                    return None
-                    
-                return parsed_data
+                # Валидируем через Pydantic и сбрасываем в стандартный dict для совместимости
+                validated_data = GreekCardSchema.model_validate_json(response.text)
+                return validated_data.model_dump()
                 
             except Exception as e:
                 print(f"⚠️ Ошибка API или парсинга JSON: {e}")
                 return None
-
 
     def get_tts(self, text):
             if not text: return ""
@@ -254,6 +266,7 @@ class GreekSentenceGenerator:
 
         examples_list = data.get("examples", [])
         examples_html = ""
+
         for ex in examples_list:
             ex_gr = ex.get("greek", "")
             ex_ru = ex.get("russian", "")
@@ -286,7 +299,7 @@ class GreekSentenceGenerator:
             ]
         )
         self.deck.add_note(note)
-        time.sleep(1) # Увеличил паузу до 1 сек, т.к. запрос стал тяжелее
+        time.sleep(1)
 
     def create_deck(self, lines):
         for line in lines:
