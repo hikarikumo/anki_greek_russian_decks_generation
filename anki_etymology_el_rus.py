@@ -17,43 +17,43 @@ load_dotenv()
 # === НАСТРОЙКИ ===
 input_file = "greek_text.txt"  
 
-# anki_deck_name = "Greek decks::Этимология::Linq (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Этимология::Linq (Ελληνικά - Русский)"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_el_rus.apkg"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан глаголы (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан глаголы (Ελληνικά - Русский)"
 # output_deck = "sudan_Ρήματα.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан местоимения (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан местоимения (Ελληνικά - Русский)"
 # output_deck = "sudan_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: επαγγέλματα (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: επαγγέλματα (Ελληνικά - Русский)"
 # output_deck = "professions.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: ρήμ β2 (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: ρήμ β2 (Ελληνικά - Русский)"
 # output_deck = "verbs_b2.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - σκοποβολή (Ελληνηκα - Русский)"
-output_deck = "εξεταση_λεξιλόγιο_σκοποβολή.apkg"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - ερώτηση (Ελληνικά - Русский)"
+output_deck = "εξεταση_λεξιλόγιο_ερώτηση.apkg"
 input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνικά - Русский)"
 # output_deck = "T2_my_day.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: describe picture (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: describe picture (Ελληνικά - Русский)"
 # output_deck = "describe_picture.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Этимология::Linq 15.. (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Этимология::Linq 15.. (Ελληνικά - Русский)"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_el_rus.apkg"
 
-# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: союзы (Ελληνηκα - Русский)"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: союзы (Ελληνικά - Русский)"
 # output_deck = "unions.apkg"
 # input_words_archive = "input_words_archive/"
 

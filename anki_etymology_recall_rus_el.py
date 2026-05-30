@@ -17,43 +17,43 @@ load_dotenv()
 # === НАСТРОЙКИ ===
 input_file = "greek_text.txt"  # Файл, куда вставляем греческие предложения
 
-# anki_deck_name = "Greek decks::Этимология::Linq recall (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Этимология::Linq recall (Русский -> Ελληνικά)"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_recall_rus_el.apkg"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан recall глаголы (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан recall глаголы (Русский -> Ελληνικά)"
 # output_deck = "sudan_recall_Ρήματα.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά::Судан recall местоимения (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά::Судан recall местоимения (Русский -> Ελληνικά)"
 # output_deck = "sudan_recall_prepositions.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall επαγγέλματα (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall επαγγέλματα (Русский -> Ελληνικά)"
 # output_deck = "recall_professions.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall ρήμ β2 (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall ρήμ β2 (Русский -> Ελληνικά)"
 # output_deck = "recall_verbs_b2.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - σκοποβολή (Русский -> Ελληνηκα)"
-output_deck = "recall_εξεταση_λεξιλόγιο_σκοποβολή.apkg"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - ερώτηση (Русский -> Ελληνικά)"
+output_deck = "recall_εξεταση_λεξιλόγιο_ερώτηση.apkg"
 input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνικά)"
 # output_deck = "recall_T2_my_day.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall describe picture (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall describe picture (Русский -> Ελληνικά)"
 # output_deck = "recall_describe_picture.apkg"
 # input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Этимология::Linq recall 15.. (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Этимология::Linq recall 15.. (Русский -> Ελληνικά)"
 # input_words_archive = "input_archive_sentences"
 # output_deck = "linq_etymology_recall_rus_el.apkg"
 
-# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall союзы (Русский -> Ελληνηκα)"
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall союзы (Русский -> Ελληνικά)"
 # output_deck = "recall_unions.apkg"
 # input_words_archive = "input_words_archive/"
 
