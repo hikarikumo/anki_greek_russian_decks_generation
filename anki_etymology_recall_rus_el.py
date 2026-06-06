@@ -37,8 +37,8 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_verbs_b2.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - ερώτηση (Русский -> Ελληνικά)"
-output_deck = "recall_εξεταση_λεξιλόγιο_ερώτηση.apkg"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - φράσεις (Русский -> Ελληνικά)"
+output_deck = "recall_εξεταση_λεξιλόγιο_φράσεις.apkg"
 input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνικά)"

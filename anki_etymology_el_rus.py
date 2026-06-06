@@ -37,8 +37,8 @@ input_file = "greek_text.txt"
 # output_deck = "verbs_b2.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - ερώτηση (Ελληνικά - Русский)"
-output_deck = "εξεταση_λεξιλόγιο_ερώτηση.apkg"
+anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - φράσεις (Ελληνικά - Русский)"
+output_deck = "εξεταση_λεξιλόγιο_φράσεις.apkg"
 input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνικά - Русский)"
