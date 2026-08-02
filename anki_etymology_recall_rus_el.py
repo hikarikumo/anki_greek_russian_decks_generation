@@ -33,13 +33,29 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_professions.apkg"
 # input_words_archive = "input_words_archive/"
 
+anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall What should Greek beginners listen (Русский -> Ελληνικά)"
+output_deck = "recall_easy_greek_what_should_greek_beginners_listen.apkg"
+input_words_archive = "input_words_archive/"
+
 # anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall ρήμ β2 (Русский -> Ελληνικά)"
 # output_deck = "recall_verbs_b2.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο για εξέταση - φράσεις (Русский -> Ελληνικά)"
-output_deck = "recall_εξεταση_λεξιλόγιο_φράσεις.apkg"
-input_words_archive = "input_words_archive/"
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall λεξιλόγιο γραμματικής (Русский -> Ελληνικά)"
+# output_deck = "recall_εξεταση_λεξιλόγιο_γραμματικής.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall λεξιλόγιο are Greek Europeans (Русский -> Ελληνικά)"
+# output_deck = "recall_easy_greek_λεξιλόγιο_are_greek_europeans.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά για Κυπρο:: recall λεξιλόγιο πολιτισμος (Русский -> Ελληνικά)"
+# output_deck = "recall_Κυπρος_λεξιλόγιο_πολιτισμος.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά :: recall Γνώσεις για την Κύπρο (Русский -> Ελληνικά)"
+# output_deck = "recall_γνώσεις_για_την_κύπρο.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall T2 my day (Русский -> Ελληνικά)"
 # output_deck = "recall_T2_my_day.apkg"

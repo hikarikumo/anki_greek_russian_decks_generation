@@ -33,13 +33,29 @@ input_file = "greek_text.txt"
 # output_deck = "professions.apkg"
 # input_words_archive = "input_words_archive/"
 
+anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: What should Greek beginners listen (Ελληνικά - Русский)"
+output_deck = "easy_greek_what_should_greek_beginners_listen.apkg"
+input_words_archive = "input_words_archive/"
+
 # anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: ρήμ β2 (Ελληνικά - Русский)"
 # output_deck = "verbs_b2.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο για εξέταση - φράσεις (Ελληνικά - Русский)"
-output_deck = "εξεταση_λεξιλόγιο_φράσεις.apkg"
-input_words_archive = "input_words_archive/"
+# anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: λεξιλόγιο γραμματικής (Ελληνικά - Русский)"
+# output_deck = "εξεταση_λεξιλόγιο_γραμματικής.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: λεξιλόγιο are Greek Europeans (Ελληνικά - Русский)"
+# output_deck = "easy_greek_λεξιλόγιο_are_greek_europeans.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά για Κυπρο:: λεξιλόγιο πολιτισμος (Ελληνικά - Русский)"
+# output_deck = "Κυπρος_λεξιλόγιο_πολιτισμος.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά :: Γνώσεις για την Κύπρο (Ελληνικά - Русский)"
+# output_deck = "γνώσεις_για_την_κύπρο.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: T2 my day (Ελληνικά - Русский)"
 # output_deck = "T2_my_day.apkg"
