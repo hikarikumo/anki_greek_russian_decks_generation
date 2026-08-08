@@ -33,8 +33,16 @@ input_file = "greek_text.txt"
 # output_deck = "professions.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: What should Greek beginners listen (Ελληνικά - Русский)"
-output_deck = "easy_greek_what_should_greek_beginners_listen.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: What should Greek beginners listen (Ελληνικά - Русский)"
+# output_deck = "easy_greek_what_should_greek_beginners_listen.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: Β1 με Ιαν ΚΕΓ (Ελληνικά - Русский)"
+# output_deck = "β1_με_Ιαν_ΚΕΓ.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά έξεταση:: Β1 γραφετικα - создание письма (Ελληνικά - Русский)"
+output_deck = "β1_γραφετικα.apkg"
 input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: ρήμ β2 (Ελληνικά - Русский)"

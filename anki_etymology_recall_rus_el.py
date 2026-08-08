@@ -33,9 +33,21 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_professions.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall What should Greek beginners listen (Русский -> Ελληνικά)"
-output_deck = "recall_easy_greek_what_should_greek_beginners_listen.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall What should Greek beginners listen (Русский -> Ελληνικά)"
+# output_deck = "recall_easy_greek_what_should_greek_beginners_listen.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 με Ιαν ΚΕΓ (Русский -> Ελληνικά)"
+# output_deck = "recall_β1_με_Ιαν_ΚΕΓ.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 γραφετικα - создание письма (Русский -> Ελληνικά)"
+output_deck = "recall_β1_γραφετικα.apkg"
 input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 2015 ΚΕΓ (Русский -> Ελληνικά)"
+# output_deck = "recall_β1_2015_ΚΕΓ.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: recall ρήμ β2 (Русский -> Ελληνικά)"
 # output_deck = "recall_verbs_b2.apkg"
