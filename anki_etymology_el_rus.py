@@ -37,13 +37,37 @@ input_file = "greek_text.txt"
 # output_deck = "easy_greek_what_should_greek_beginners_listen.apkg"
 # input_words_archive = "input_words_archive/"
 
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: 92 Παραδοσιακά ελληνικά φαγητά (Ελληνικά - Русский)"
+# output_deck = "easy_greek_92_παραδοσιακά_ελληνικά_φαγητά.apkg"
+# input_words_archive = "input_words_archive/"
+
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: Β1 με Ιαν ΚΕΓ (Ελληνικά - Русский)"
 # output_deck = "β1_με_Ιαν_ΚΕΓ.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά έξεταση:: Β1 γραφετικα - создание письма (Ελληνικά - Русский)"
-output_deck = "β1_γραφετικα.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 002 согласовние прилагательных и существительных (Ελληνικά - Русский)"
+# output_deck = "002_согласовние_прилагательных_и_существительных.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 003 Ιαν 2026.08.14 (Ελληνικά - Русский)"
+# output_deck = "003_Ιαν_2026_08_14.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά Β1:: 004 2015 Εξέταση διαβαζμα (Ελληνικά - Русский)"
+output_deck = "004_2015_Εξέταση_διαβαζμα.apkg"
 input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά διαβάζω:: Ο γερος και η θαλλασα (Ελληνικά - Русский)"
+# output_deck = "ο_γερος_και_η_θαλλασα.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: Β1 θεμες (Ελληνικά - Русский)"
+# output_deck = "β1_θεμες.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: Β1 γραφετικα - создание письма (Ελληνικά - Русский)"
+# output_deck = "β1_γραφετικα.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά με τον Ιαν:: ρήμ β2 (Ελληνικά - Русский)"
 # output_deck = "verbs_b2.apkg"

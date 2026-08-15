@@ -37,13 +37,42 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_easy_greek_what_should_greek_beginners_listen.apkg"
 # input_words_archive = "input_words_archive/"
 
+# anki_deck_name = "Greek decks::Ελληνικά με easy Greek:: recall 92 Παραδοσιακά ελληνικά φαγητά (Русский -> Ελληνικά)"
+# output_deck = "recall_easy_greek_92_παραδοσιακά_ελληνικά_φαγητά.apkg"
+# input_words_archive = "input_words_archive/"
+
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 με Ιαν ΚΕΓ (Русский -> Ελληνικά)"
 # output_deck = "recall_β1_με_Ιαν_ΚΕΓ.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 γραφετικα - создание письма (Русский -> Ελληνικά)"
-output_deck = "recall_β1_γραφετικα.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 003 Ιαν recall 2026.08.14 (Русский -> Ελληνικά)"
+# output_deck = "recall_003_Ιαν_2026_08_14.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά Β1:: 2015 Εξέταση recall διαβαζμα  (Русский -> Ελληνικά)"
+output_deck = "recall_2015_Εξέταση_recall_διαβαζμα.apkg"
 input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 002 recall согласование прилагательных и существильных (Русский -> Ελληνικά)"
+# output_deck = "recall_002_согласование_прилагательных_и_существительных.apkg"
+# input_words_archive = "input_words_archive/"
+
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 001 recall το ημερολόγιό μου (Русский -> Ελληνικά)"
+# output_deck = "recall_001_το_ημερολόγιό_μου.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 θεμες (Русский -> Ελληνικά)"
+# output_deck = "recall_β1_θεμες.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά διαβάζω:: recall Ο γερος και η θαλλασα (Русский -> Ελληνικά)"
+# output_deck = "recall_ο_γερος_και_η_θαλλασα.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 γραφετικα - создание письма (Русский -> Ελληνικά)"
+# output_deck = "recall_β1_γραφετικα.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά έξεταση:: recall Β1 2015 ΚΕΓ (Русский -> Ελληνικά)"
 # output_deck = "recall_β1_2015_ΚΕΓ.apkg"
