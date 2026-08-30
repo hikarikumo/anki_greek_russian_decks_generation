@@ -53,9 +53,30 @@ input_file = "greek_text.txt"
 # output_deck = "003_Ιαν_2026_08_14.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά Β1:: 004 2015 Εξέταση διαβαζμα (Ελληνικά - Русский)"
-output_deck = "004_2015_Εξέταση_διαβαζμα.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 004 2015 Εξέταση διαβαζμα (Ελληνικά - Русский)"
+# output_deck = "004_2015_Εξέταση_διαβαζμα.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 005 χρήσιμες λέξεις 001 (Ελληνικά - Русский)"
+# output_deck = "005_χρήσιμες_λέξεις_001.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 006 εξέταση 2017 writing (Ελληνικά - Русский)"
+# output_deck = "006_εξέταση_writing_2017.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 006 εξέταση 2017 audio (Ελληνικά - Русский)"
+# output_deck = "006_εξέταση_audio_2017.apkg"
+# input_words_archive = "input_words_archive/"
+
+
+anki_deck_name = "Greek decks::Ελληνικά Β1:: 007 εξέταση - γραφικο μου (Ελληνικά - Русский)"
+output_deck = "007_εξέταση_γραφικο_μου.apkg"
 input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 102 chunks эмоции характер (Ελληνικά - Русский)"
+# output_deck = "102_chunks_эмоции_характер.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά διαβάζω:: Ο γερος και η θαλλασα (Ελληνικά - Русский)"
 # output_deck = "ο_γερος_και_η_θαλλασα.apkg"

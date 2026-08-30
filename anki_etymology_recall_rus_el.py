@@ -49,9 +49,29 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_003_Ιαν_2026_08_14.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά Β1:: 2015 Εξέταση recall διαβαζμα  (Русский -> Ελληνικά)"
-output_deck = "recall_2015_Εξέταση_recall_διαβαζμα.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 2015 Εξέταση recall διαβαζμα  (Русский -> Ελληνικά)"
+# output_deck = "recall_2015_Εξέταση_recall_διαβαζμα.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 005 recall χρήσιμες λέξεις 001 (Русский -> Ελληνικά)"
+# output_deck = "recall_005_χρήσιμες_λέξεις_001.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 006 recall εξέταση 2017 writing (Русский -> Ελληνικά)"
+# output_deck = "recall_006_εξέταση_writing_2017.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 006 recall εξέταση 2017 audio (Русский -> Ελληνικά)"
+# output_deck = "recall_006_εξέταση_audio_2017.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά Β1:: 006 recall εξέταση γραφικο μου (Русский -> Ελληνικά)"
+output_deck = "recall_007_εξέταση_γραφικο_μου.apkg"
 input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 102 recall chunks эмоции характер (Русский -> Ελληνικά)"
+# output_deck = "recall_102_chunks_эмоции_характер.apkg"
+# input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά Β1:: 002 recall согласование прилагательных и существильных (Русский -> Ελληνικά)"
 # output_deck = "recall_002_согласование_прилагательных_и_существительных.apkg"
