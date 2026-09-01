@@ -65,12 +65,24 @@ input_file = "greek_text.txt"  # Файл, куда вставляем греч�
 # output_deck = "recall_006_εξέταση_audio_2017.apkg"
 # input_words_archive = "input_words_archive/"
 
-anki_deck_name = "Greek decks::Ελληνικά Β1:: 006 recall εξέταση γραφικο μου (Русский -> Ελληνικά)"
-output_deck = "recall_007_εξέταση_γραφικο_μου.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 007 recall εξέταση γραφικο μου (Русский -> Ελληνικά)"
+# output_deck = "recall_007_εξέταση_γραφικο_μου.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 008 recall εξέταση σύνθεση (Русский -> Ελληνικά)"
+# output_deck = "recall_008_εξέταση_σύνθεση.apkg"
+# input_words_archive = "input_words_archive/"
+
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 009 recall εξέταση 2015 audio (Русский -> Ελληνικά)"
+# output_deck = "recall_009_εξέταση_2015_audio.apkg"
+# input_words_archive = "input_words_archive/"
+
+anki_deck_name = "Greek decks::Ελληνικά Β1:: 010 recall εξέταση σύνθεση minimum (Русский -> Ελληνικά)"
+output_deck = "recall_010_εξέταση_σύνθεση_minimum.apkg"
 input_words_archive = "input_words_archive/"
 
-# anki_deck_name = "Greek decks::Ελληνικά Β1:: 102 recall chunks эмоции характер (Русский -> Ελληνικά)"
-# output_deck = "recall_102_chunks_эмоции_характер.apkg"
+# anki_deck_name = "Greek decks::Ελληνικά Β1:: 100 recall chunks объявления (Русский -> Ελληνικά)"
+# output_deck = "recall_100_chunks_объявления.apkg"
 # input_words_archive = "input_words_archive/"
 
 # anki_deck_name = "Greek decks::Ελληνικά Β1:: 002 recall согласование прилагательных и существильных (Русский -> Ελληνικά)"
