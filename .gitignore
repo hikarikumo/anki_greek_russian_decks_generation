@@ -1,6 +1,9 @@
 # anki decks
 *.apkg
 
+# chuncks cache
+.chunk_cache/*
+
 #audo files
 *.mp3
 *.ogg
@@ -9,7 +12,6 @@
 *.txt
 
 story_images/
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
